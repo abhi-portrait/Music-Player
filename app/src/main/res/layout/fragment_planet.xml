@@ -1,0 +1,110 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView android:text="Music Palyer" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:textSize="35dp"
+        android:gravity="center"/>
+
+
+
+    <ImageView
+        android:layout_width="217dp"
+        android:layout_height="274dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        />
+    <SeekBar
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_gravity="center"
+        />
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:id="@+id/textView2"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=""
+            android:id="@+id/textView3"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:id="@+id/textView4"
+            android:gravity="end"
+            android:layout_weight="0.54"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="forward"
+            android:id="@+id/button"
+
+            />
+
+        <Button
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="pause"
+            android:id="@+id/button2"
+            />
+
+        <Button
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="play"
+            android:id="@+id/button3"
+            />
+
+        <Button
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="back"
+            android:id="@+id/button4"
+            />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
